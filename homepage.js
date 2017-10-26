@@ -1,4 +1,4 @@
-var circles = new Array(20);
+var circles= [100];
 window.onload = function(){
     c = document.getElementById("can");
     ctx = c.getContext("2d");
@@ -20,12 +20,12 @@ function draw()
 
     ctx.fillStyle="black";
     ctx.fillRect(0,0,can.width, can.height);
-     for(var i = 0; i <= circles.length; i++){
+     for(var i = 0; i <= 100; i++){
          circles[i].drawit();
      }
 }
 function makeCircles(){
-    for(var i = 0; i <= circles.length; i++){
+    for(var i = 0; i <= 100; i++){
         var randSpeed = Math.random() * 2.1;
         var randStarty = Math.random() * can.width;
         var randRadius= Math.random() * 20;
@@ -34,14 +34,15 @@ function makeCircles(){
 }
 
 function drawCircle(randSpeed, randStarty, randRadius){
+    this.start = 0;
     this.speed = randSpeed;
     this.starty = randStarty;
     this.radius = randRadius;
-    function drawit(){
+    this.drawit = function(){
         ctx.beginPath();
-        ctx.arc(starty, (can.height - radius) - speed ,radius,0,2*Math.PI);
+        ctx.arc(this.starty, (can.height - this.radius) - this.start ,this.radius,0,2*Math.PI);
         ctx.strokeStyle = "red";
         ctx.stroke();
-        speed+=speed;
+        this.start+=this.speed;
     };
 }
