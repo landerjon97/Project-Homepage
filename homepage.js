@@ -1,48 +1,40 @@
-var circles= [100];
+var circles= [];
+var player;
+var left = false;
+var right= false;
+var up = false;
+var down= false;
 window.onload = function(){
     c = document.getElementById("can");
     ctx = c.getContext("2d");
     window.addEventListener('resize',resizeCanvas, false);
     resizeCanvas();
-    makeCircles();
-    setInterval(draw,5);
+    player = new Player();
+    setInterval(draw,30);
 }
-
-
 function resizeCanvas(){
     can.width = window.innerWidth;
-    can.height = window.innerHeight;
-    
+    can.height = window.innerHeight;   
 }
 
 function draw()
 {
-
+    
+    var makeOne = Math.floor(Math.random() * 10);
+    if(makeOne== 1 && circles.length<= 150){
+        circles.push(new DrawCircles());
+    }
     ctx.fillStyle="black";
     ctx.fillRect(0,0,can.width, can.height);
-     for(var i = 0; i <= 100; i++){
-         circles[i].drawit();
+    player.drawit()
+    
+    for(var i = 0; i <= circles.length; i++){
+         if(circles[i].start >= can.height + circles[i].radius*2){
+             circles.splice(i,1,new DrawCircles());
+         }
+         else{
+             circles[i].drawit();
+         }
      }
 }
-function makeCircles(){
-    for(var i = 0; i <= 100; i++){
-        var randSpeed = Math.random() * 2.1;
-        var randStarty = Math.random() * can.width;
-        var randRadius= Math.random() * 20;
-        circles[i] = new drawCircle(randSpeed,randStarty,randRadius);
-    }
-}
 
-function drawCircle(randSpeed, randStarty, randRadius){
-    this.start = 0;
-    this.speed = randSpeed;
-    this.starty = randStarty;
-    this.radius = randRadius;
-    this.drawit = function(){
-        ctx.beginPath();
-        ctx.arc(this.starty, (can.height - this.radius) - this.start ,this.radius,0,2*Math.PI);
-        ctx.strokeStyle = "red";
-        ctx.stroke();
-        this.start+=this.speed;
-    };
-}
