@@ -28,9 +28,10 @@ function draw()
     ctx.fillRect(0,0,can.width, can.height);
     player.drawit()
     
-    for(var i = 0; i <= circles.length; i++){
+    for(var i = 0; i < circles.length; i++){
          if(circles[i].start >= can.height + circles[i].radius*2){
              circles.splice(i,1,new DrawCircles());
+             
          }
          else{
              circles[i].drawit();
