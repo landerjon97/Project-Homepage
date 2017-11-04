@@ -12,6 +12,10 @@ this.DrawCircles = function(){
         ctx.arc(this.starty, (can.height + this.radius) - this.start ,this.radius,0,2*Math.PI);
         ctx.fillStyle = 'rgba('+ this.r+ ','+ this.g + ',' + this.b +',' + this.a+ ')';
         ctx.fill();
+        ctx.shadowColor = "black";
+        ctx.shadowOffsetX = 0;
+        ctx.shadowOffsetY = 0;
+        ctx.shadowBlur = 10;
         this.start+=this.speed; 
     };
 }
