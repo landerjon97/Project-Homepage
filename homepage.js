@@ -10,7 +10,7 @@ window.onload = function(){
     window.addEventListener('resize',resizeCanvas, false);
     resizeCanvas();
     player = new Player();
-    setInterval(draw,30);
+    setInterval(draw,1);
 }
 function resizeCanvas(){
     can.width = window.innerWidth;
