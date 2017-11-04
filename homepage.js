@@ -2,8 +2,6 @@ var circles= [];
 
 
 window.onload = function(){
-    c = document.getElementById("can");
-    ctx = c.getContext("2d");
     var c = document.getElementById("can");
     var ctx = c.getContext("2d");
     window.addEventListener('resize',resizeCanvas, false);
