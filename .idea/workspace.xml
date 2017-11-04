@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="42e80369-5c33-4c11-8c63-045517f52cdb" name="Default" comment="" />
+=======
+    <list default="true" id="02d12851-9232-401f-a624-e83a6a4cb5fa" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DrawCircles.js" afterPath="$PROJECT_DIR$/DrawCircles.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homepage.html" afterPath="$PROJECT_DIR$/homepage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homepage.js" afterPath="$PROJECT_DIR$/homepage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.css" afterPath="$PROJECT_DIR$/main.css" />
+    </list>
+>>>>>>> 6babea920c0676cfbc2f464878b4e220de83e4fd
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -14,7 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+<<<<<<< HEAD
       <file leaf-file-name="DrawCircles.js" pinned="false" current-in-tab="true">
+=======
+      <file leaf-file-name="DrawCircles.js" pinned="false" current-in-tab="false">
+>>>>>>> 6babea920c0676cfbc2f464878b4e220de83e4fd
         <entry file="file://$PROJECT_DIR$/DrawCircles.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -24,11 +37,44 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+=======
+      <file leaf-file-name="homepage.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/homepage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="homepage.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/homepage.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="15" lean-forward="true" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+>>>>>>> 6babea920c0676cfbc2f464878b4e220de83e4fd
     </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< HEAD
+=======
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/homepage.js" />
+      </list>
+    </option>
+  </component>
+>>>>>>> 6babea920c0676cfbc2f464878b4e220de83e4fd
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
@@ -36,8 +82,13 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="x" value="580" />
     <option name="y" value="55" />
+=======
+    <option name="x" value="260" />
+    <option name="y" value="109" />
+>>>>>>> 6babea920c0676cfbc2f464878b4e220de83e4fd
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -56,8 +107,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scratches" />
       <pane id="Scope" />
+=======
+>>>>>>> 6babea920c0676cfbc2f464878b4e220de83e4fd
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -69,11 +123,20 @@
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
+=======
+      <pane id="Scratches" />
+      <pane id="Scope" />
+>>>>>>> 6babea920c0676cfbc2f464878b4e220de83e4fd
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$/homepage.html" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+>>>>>>> 6babea920c0676cfbc2f464878b4e220de83e4fd
     <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
   <component name="RunDashboard">
@@ -88,28 +151,49 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="JavaScript Debug.javascript">
     <configuration name="javascript" type="JavascriptDebugType" factoryName="JavaScript Debug" uri="http://localhost:63342/Project-Homepage/homepage.html" />
+=======
+  <component name="RunManager" selected="JavaScript Debug.javadebug">
+    <configuration name="javadebug" type="JavascriptDebugType" factoryName="JavaScript Debug" uri="http://localhost:63342/Project-Homepage/homepage.html" />
+>>>>>>> 6babea920c0676cfbc2f464878b4e220de83e4fd
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="42e80369-5c33-4c11-8c63-045517f52cdb" name="Default" comment="" />
       <created>1509760490399</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1509760490399</updated>
       <workItem from="1509760492428" duration="165000" />
+=======
+      <changelist id="02d12851-9232-401f-a624-e83a6a4cb5fa" name="Default" comment="" />
+      <created>1509718938154</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1509718938154</updated>
+      <workItem from="1509718940176" duration="997000" />
+>>>>>>> 6babea920c0676cfbc2f464878b4e220de83e4fd
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="165000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="580" y="55" width="1400" height="1000" extended-state="0" />
+=======
+    <option name="totallyTimeSpent" value="997000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="260" y="109" width="1400" height="1000" extended-state="0" />
+>>>>>>> 6babea920c0676cfbc2f464878b4e220de83e4fd
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -120,7 +204,11 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39978448" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+>>>>>>> 6babea920c0676cfbc2f464878b4e220de83e4fd
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -149,5 +237,24 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/homepage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homepage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="15" lean-forward="true" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 6babea920c0676cfbc2f464878b4e220de83e4fd
   </component>
 </project>
