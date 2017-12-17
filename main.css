@@ -1,15 +1,240 @@
-
+/*
+Project: Home Page
+Author: Jonathan Lander
+Other: Create web page for launching websites
+ */
+/******************************************************************************************/
+/*NOTE: I DIDN'T DESCRIBE MUCH BECAUSE A LOT OF THIS IS ONLY LEARNED BY EXAMPLE OTHERWISE
+        IT IS SELF EXPLAINITORY MUCH OF IT WAS JUST MESSING AROUND UNTIL IT LOOKED GOOD.*/
+/******************************************************************************************/
 html, body{
+    /* overflow so that it doesnt have scroll bars*/
+    overflow: hidden;
     width: 100%;
     height: 100%;
     margin: 0;
 }
+#back1{
+    /*make a very large gradeint that can be slowly slide across the screen*/
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    background-size:400% 400%;
+    animation: AnimationName ease 30s infinite;
+}
 #can{
+    /*canvas is block*/
     display: block;
 }
+/******************************************************************************************/
+/*KEYFRAMES*/
+/*simple animations to keep it looking fresh. not very complicated*/
+/******************************************************************************************/
+@keyframes weatherSlide{
+    0% {
+        transform: translate(0px,200px);
+        opacity: 0;
+    }
+    10%{
+        transform: translate(0px,0px);
+        opacity:1;
+    }
+    40%{
+        transform: translate(0px,0px);
+        opacity:1;
+    }
+    50%{
+        transform: translate(0px,-200px);
+        opacity:0;
+    }
+    100%{
+        transform: translate(0px,-200px);
+        opacity:0;
+    }
+}
+@keyframes fadeIn {
+    0% {
+        transform: translate(0px,200px);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0px,0px);
+        opacity:1;
+    }
+}
+@keyframes slideFade {
+    0%{
+        transform: translate(-100px, 0px);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0px, 0px);
+        opacity: 1;
+    }
+
+}
+@keyframes fadeDown {
+    0% {
+        transform: translate(0px,-100px);
+        opacity: 0;
+    }
+    15%{
+        transform: translate(0px,0px);
+        opacity:1;
+    }
+    85%{
+        transform: translate(0px,0px);
+        opacity:1;
+    }
+    100%{
+        transform: translate(200px,0px);
+        opacity:0;
+    }
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+/******************************************************************************************/
+/*LINKS ALL HAVE SIMILAR PROPERTIES */
+/******************************************************************************************/
+.amazon,.clarion, .facebook,.youtube{
+    border-radius: 30px;
+    display: inline-block;
+    /*RARELY USED WEBKITS BECAUSE LATEST BROWSERS DONT CARE WITH REGULAR SETTINGS*/
+    -webkit-filter: drop-shadow(0px 0px 3px black);
+    margin: 5%;
+    transition: 50ms;
+    opacity: 0;
+}
+
+.amazon{
+    /*CALLING ANIMATION*/
+    animation:fadeIn ease-in 1s;
+    /*KEEP ANIMATION SETTINGS*/
+    animation-fill-mode: forwards;
+    /*TIME TIL IT ANIMATES AFTER LOAD*/
+    animation-delay: .5s;
+}
+
+.clarion{
+    animation:fadeIn ease-in 1s;
+    animation-fill-mode: forwards;
+    animation-delay: .7s;
+}
+.facebook{
+    animation:fadeIn ease-in 1s;
+    animation-fill-mode: forwards;
+    animation-delay: .9s;
+}
+.youtube{
+    animation:fadeIn ease-in 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 1.1s;
+}
+
+.amazon:hover{
+    background: rgb(254,154,43);
+}
+.clarion:hover{
+    background: rgb(155,133,72);
+}
+.facebook:hover{
+    background: rgb(66,103,175);
+}
+.youtube:hover{
+    background:red;
+}
+
+.links{
+    text-align: center;
+    position: absolute;
+    width: 80%;
+    padding-top: 10%;
+    padding-right: 10%;
+    padding-left:10%;
+
+}
+
 .title{
     margin-left: auto;
     margin-right: auto;
     width:80%;
     position: absolute;
+}
+/******************************************************************************************/
+/*QUOTE SETTINGS*/
+/******************************************************************************************/
+#quoteText{
+   font-size: x-large;
+   font-weight: bold;
+    text-shadow: black 0px 0px 3px;
+}
+.quote{
+    opacity: 0;
+    animation: slideFade ease 4s;
+    animation-fill-mode: forwards;
+    animation-delay: 6s;
+    display: block;
+    margin-top:5%;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+}
+/******************************************************************************************/
+/*WELCOME SETTINGS*/
+/******************************************************************************************/
+#welcome{
+    opacity: 0;
+    position: absolute;
+    width: 50%;
+    padding-left: 25%;
+    margin: auto;
+    text-align: center;
+    text-shadow: black 0px 0px 3px;
+    padding-top: 5%;
+    animation: fadeDown ease 4s;
+    animation-delay: 1s;
+}
+/******************************************************************************************/
+/*WEATHER SETTINGS*/
+/******************************************************************************************/
+
+.weathers{
+    font-family: "Arial Narrow", Arial, sans-serif;
+    color:lightblue;
+    position: absolute;
+    padding:10px;
+    right:10%;
+    top: 80%;
+
+}
+#tomorrow{
+    opacity: 0;
+    animation: weatherSlide ease 10s infinite;
+    animation-delay: 5s;
+    border-radius: 30px;
+    display: inline-block;
+    line-height: 190%;
+    background-color: rgba(0,0,0,.5);
+    padding:10px;
+
+}
+#future{
+    position: absolute;
+    animation: weatherSlide ease 10s infinite;
+    display: inline-block;
+    border-radius: 30px;
+    line-height: 190%;
+    background-color: rgba(0,0,0,.5);
+    padding:10px;
+
+}
+#weather{
+    animation: fadeIn ease 1s;
+    display: inline-block;
+    border-radius: 30px;
+    line-height: 190%;
+    background-color: rgba(0,0,0,.5);
+    padding:10px;
+
 }

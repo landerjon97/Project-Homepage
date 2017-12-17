@@ -1,3 +1,11 @@
+<!--
+Project: Home Page
+Author: Jonathan Lander
+Other: Create web page for launching websites
+
+NOTE: I DIDN'T DESCRIBE MUCH BECAUSE A LOT OF THIS IS ONLY LEARNED BY EXAMPLE OTHERWISE
+      IT IS SELF EXPLAINITORY MUCH OF IT WAS JUST MESSING AROUND UNTIL IT LOOKED GOOD.
+-->
 <!DOCTYPE HTML>
 <html>
     <head>
@@ -5,11 +13,44 @@
         <meta charset="utf-8"/>
         <script src="homepage.js"></script>
         <script src="DrawCircles.js"></script>
-        <script src="Player.js"></script>
-        <script src="Box.js"></script>
+        <script src="jquery.js"></script>
+        <script src="jquery.simpleWeather.min.js"></script>
+        <script src="weather.js"></script>
         <link rel="stylesheet" href="main.css">
     </head>
     <body id="back1">
+    <!--*********************************************************************************************************************-->
+    <!--WELCOME-->
+    <!--*********************************************************************************************************************-->
+    <h1 id="welcome">WELCOME</h1>
+    <div class="quote">
+        <span id="quoteText" class="quoteText">
+        </span>
+    </div>
+    <!--*********************************************************************************************************************-->
+    <!--LINKS-->
+    <!--*********************************************************************************************************************-->
+    <div class="links fade">
+       <a href="https://www.amazon.com"> <img src="Images/amazon.png" width="150" height="150" class=" fade amazon"></a>
+        <a href="http://clarion.edu"> <img src="Images/Clarion.png" width="150" height="150" class="fade clarion"> </a>
+        <a href="https://www.facebook.com"> <img src="Images/facebook.png" width="150" height="150" class="fade facebook"></a>
+       <a href="https://www.youtube.com"> <img src="Images/youtube.png" width="150" height="150" class="fade youtube"> </a>
+    </div>
+    <!--*********************************************************************************************************************-->
+    <!--WEATHER-->
+    <!--*********************************************************************************************************************-->
+    <div class="weathers">
+        <div id="weather"></div>
+        <div id="future"></div>
+        <div id="tomorrow"></div>
+    </div>
+
+    </div>
+    <!--*********************************************************************************************************************-->
+    <!--THE CANVAS IS AT THE BOTTOM CUZ I DRAW ALOT OF TOP-->
+    <!--*********************************************************************************************************************-->
         <canvas id="can"> </canvas>
+
+
     </body>
 </html>
