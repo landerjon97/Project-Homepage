@@ -97,7 +97,7 @@ html, body{
 /******************************************************************************************/
 /*LINKS ALL HAVE SIMILAR PROPERTIES */
 /******************************************************************************************/
-.amazon,.clarion, .facebook,.youtube{
+.amazon,.clarion, .facebook,.youtube,.myclarion,.netflix,.d2l,.etime,.gmail,.outlook{
     border-radius: 30px;
     display: inline-block;
     /*RARELY USED WEBKITS BECAUSE LATEST BROWSERS DONT CARE WITH REGULAR SETTINGS*/
@@ -131,6 +131,37 @@ html, body{
     animation-fill-mode: forwards;
     animation-delay: 1.1s;
 }
+.etime{
+    animation:fadeIn ease-in 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 1.1s;
+}
+.gmail{
+    animation:fadeIn ease-in 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 1.1s;
+}
+.netflix{
+    animation:fadeIn ease-in 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 1.1s;
+}
+.d2l{
+     animation:fadeIn ease-in 1s;
+     animation-fill-mode: forwards;
+     animation-delay: 1.1s;
+ }
+.myclarion{
+    animation:fadeIn ease-in 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 1.1s;
+}
+.outlook{
+    animation:fadeIn ease-in 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 1.1s;
+}
+
 
 .amazon:hover{
     background: rgb(254,154,43);
@@ -144,6 +175,26 @@ html, body{
 .youtube:hover{
     background:red;
 }
+.etime:hover{
+    background:rgb(31,49,97);
+}
+.myclarion:hover{
+    background:red;
+}
+.outlook:hover{
+    background:rgb(4,120,221);
+}
+.gmail:hover{
+    background:red;
+}
+.netflix:hover{
+    background:rgb(228,19,30);
+}
+.d2l:hover{
+    background:rgb(245,144,51);
+}
+
+
 
 .links{
     text-align: center;
@@ -203,8 +254,8 @@ html, body{
     font-family: "Arial Narrow", Arial, sans-serif;
     color:lightblue;
     position: absolute;
-    padding:10px;
-    right:10%;
+    padding:5px;
+    right:3%;
     top: 80%;
 
 }
